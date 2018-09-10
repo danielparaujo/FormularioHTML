@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: tahoma;
+  color: #14121;
+  background-color: white;
+}
+
+table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      table.grande {
+        width:100%;
+      }
+
+      h1.vermelho {
+        color: red;
+        font-family: tahoma;
+      }
+      h1.azul {
+        color: blue;
+        font-family: tahoma;
+      }
+      .fundo {
+        background-color: blue;
+      }
+      p.maior {
+        color: blue;
+        text-align: center;
+      }
