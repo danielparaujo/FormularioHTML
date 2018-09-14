@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <HEAD>
@@ -93,3 +94,100 @@
 </BODY>
 
 </html>
+=======
+<!DOCTYPE html>
+<html>
+<HEAD>
+	<META charset="utf-8">
+
+	<TITLE>	Cadastrar Alunos	</TITLE>
+<link href="css.css" rel="stylesheet">
+
+
+
+
+</HEAD>
+<BODY>
+
+<H1 class="azul"> Cadatrar Alunos no Sistema</H1>
+<H2>Para cadastrar, informe os dados dos alunos corretamente, sem deixar nenhum deles em branco.</H2>
+<BR>
+
+<BR>
+
+
+<FORM  method="post" action="validar.html">
+	<LABEL  for= "nome"> Nome</LABEL>
+	<INPUT type= "text" name="nome" placeholder="Informe o nome">
+		<BR>
+	<LABEL  for= "telefone"> Telefone</LABEL>
+	<INPUT type= "telefone" name="telefone" maxlength="11" placeholder="DDD+numero">
+		<BR>
+	<LABEL  for= "endereco"> Endereço</LABEL>
+	<INPUT type= "text" name="endereco" autocomplete="none">
+		<br>
+		<label for="genero">Sexo</label>
+
+		<input type="radio" id="feminino"name="genero"value="F">
+		<label for ="feminino">Feminino</label>
+		<input type="radio" id="masculino"name="genero"value="M">
+		<label for ="masculino">Masculino</label>
+		<br>
+
+			<label for="data" >Data de Nascimento</label>
+				<input type="date" name="data" >
+				<br>
+		<label for="area"> Habilidades Especiais</label>
+		<input type="checkbox" id="TDH" name="area[0]">
+		<label for="TDH"> TDH</label>
+		<input type="checkbox" id="Deficiência"  name="area[1]">
+		<label for="Deficiência">Deficiência</label>
+		<input type="checkbox" id="Nenhuma"  name="area[2]">
+		<label for="Nenhuma"> Nenhuma</label>
+		<br>
+
+		<label for="cidade">Naturalidade</label>
+		<select name="cidade">
+			<option value="0">Selecione:</option>
+			<option value="1">João Monlevade</option>
+			<option value="2">Itabira</option>
+			<option value="3">Alvinópolis</option>
+			<option value="4" selected>São Gonçalo do Rio Abaixo</option>
+			<option value="5">Rio Piracicaba</option>
+		</select>
+		<br>
+		<label for="estado">Estado</label>
+		<select name="estado">
+			<option value="0">Selecione:</option>
+			<option value="1">RJ</option>
+			<option value="2">SP</option>
+			<option value="3">PA</option>
+			<option value="4" selected>MG</option>
+			</select>
+		<br>
+
+		<label for="ano">Ano Escolaridade</label>
+		<select name="ano">
+			<option value="0" selected>Selecione:</option>
+			<option value="1">Primeiro</option>
+			<option value="2">Segundo</option>
+			<option value="3">Terceiro</option>
+			<option value="4" >Quarto</option>
+			<option value="5" >Quinto</option>
+			</select>
+		<br>
+
+
+
+		<input type="submit" value="Cadastrar">
+		<input type="reset" value="Limpar">
+
+
+
+</FORM>
+<a href="html.html"> Voltar</a>
+
+</BODY>
+
+</html>
+>>>>>>> 1e5bec0aeec7637adfa6d769adabea0df9524be0
